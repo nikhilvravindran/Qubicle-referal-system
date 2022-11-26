@@ -14,7 +14,7 @@
   </head>
   <body>
 
-    @include('book.header')
+    @include('header')
 
     @yield('content')
 
