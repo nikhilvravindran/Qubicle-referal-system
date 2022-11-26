@@ -7,10 +7,10 @@ run below commands = >
 
 composer update
 
+php artisan migrate 
+
 php artisan db:seed --class=CreateAdminSeeder
 
 php artisan db:seed --class=levelSeeder
-
-php artisan migrate 
 
 run this code on WAMP server.
