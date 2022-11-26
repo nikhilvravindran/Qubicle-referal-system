@@ -17,4 +17,4 @@ php artisan db:seed --class=CreateAdminSeeder
 
 php artisan db:seed --class=levelSeeder
 
-run this code on WAMP server.
+run this code on WAMP server  ==> http://127.0.0.1:8000/login
