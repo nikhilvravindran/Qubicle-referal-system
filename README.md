@@ -7,6 +7,10 @@ run below commands = >
 
 composer update
 
+rename  file ".env.example" to .env
+
+change value of DB_DATABASE to DB_DATABASE=qubicle  
+
 php artisan migrate 
 
 php artisan db:seed --class=CreateAdminSeeder
